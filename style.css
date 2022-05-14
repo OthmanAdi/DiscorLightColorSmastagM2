@@ -1,4 +1,8 @@
+:root{
+    --color1: rbga(0, 0, 0, 0.5);
+    --color2: rbga(0, 0, 0, 0.5);
+}
 .container{
     height: 100vh;
-    background: linear-gradient(to right, #AB46D2,#525E75);
+    background: linear-gradient(to right , var(--color1), var(--color2));
 }

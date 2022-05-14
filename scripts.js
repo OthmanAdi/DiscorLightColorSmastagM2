@@ -7,3 +7,7 @@ const randomColor = () => {
     }
     return color;
 }
+
+const paint = () => {
+
+}
